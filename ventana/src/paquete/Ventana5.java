@@ -29,32 +29,32 @@ public class Ventana5 extends JFrame implements ActionListener{
 		this.setLayout(new GridLayout(5, 5, 5, 5));
 		
 		panelimg= new JPanel();
-		fondo= new ImageIcon("C:/Users/User/Desktop/ovni2.jpg");
+		fondo= new ImageIcon("../ventana/src/paquete/ovni2.jpg");
 		labelimg= new JLabel(fondo);
 		
 		panel0= new JPanel();
-		perro= new ImageIcon("C:/Users/User/Desktop/perro1.jpg");
+		perro= new ImageIcon("../ventana/src/paquete/perro1.jpg");
 		labelperro= new JLabel(perro);
 		boton0= new JButton("Responder");
 		input0= new JTextField();
 		label0= new JLabel();
 		
 		panel1= new JPanel();
-		gato= new ImageIcon("C:/Users/User/Desktop/gato1.jpg");
+		gato= new ImageIcon("../ventana/src/paquete/gato1.jpg");
 		labelgato= new JLabel(gato);
 		boton1= new JButton("Responder");
 		input1= new JTextField();
 		label1= new JLabel();
 		
 		panel2= new JPanel();
-		loro= new ImageIcon("C:/Users/User/Desktop/loro1.jpg");
+		loro= new ImageIcon("../ventana/src/paquete/loro1.jpg");
 		labelloro= new JLabel(loro);
 		boton2= new JButton("Responder");
 		input2= new JTextField();
 		label2= new JLabel();
 		
 		panel3= new JPanel();
-		leon= new ImageIcon("C:/Users/User/Desktop/leon1.jpg");
+		leon= new ImageIcon("../ventana/src/paquete/leon1.jpg");
 		labelleon= new JLabel(leon);
 		boton3= new JButton("Responder");
 		input3= new JTextField();
